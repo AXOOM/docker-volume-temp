@@ -1,0 +1,13 @@
+{
+  "description": "Temporary Storage Volume Plugin for Docker",
+  "documentation": "https://tfs.inside-axoom.org/tfs/axoom/axoom/_git/docker-volume-temp?_a=readme&fullScreen=true",
+  "entrypoint": [
+    "/docker-volume-temp"
+  ],
+  "interface": {
+    "socket": "plugin.sock",
+    "types": [
+      "docker.volumedriver/1.0"
+    ]
+  }
+}
