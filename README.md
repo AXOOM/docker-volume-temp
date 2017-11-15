@@ -12,7 +12,7 @@ These scripts take a version number as an input argument. The source code itself
 ### 1. Install the plugin
 
 ```
-$ docker plugin install --alias data docker.axoom.cloud/docker-volume-temp:1.0.0
+$ docker plugin install --grant-all-permissions --alias data docker.axoom.cloud/docker-volume-temp:1.0.0
 ```
 
 ### 2. Create a volume
